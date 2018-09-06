@@ -1,0 +1,341 @@
+* {
+	box-sizing: border-box;
+}
+header a {
+	color: #f9fafe;
+	font-size: 16px;
+	padding: 10px 0px;
+}
+a:hover {
+	color: #e7434e;
+	text-decoration: none;
+}
+.reserve-section {
+	background: url(../img/top-bg.png) center no-repeat;
+	height: 850px;
+	position: relative;
+			
+}
+.header {
+	width: 100%;
+	padding: 35px;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+.sign-in {
+	padding: 10px 35px;
+	border: 1px solid #f9fafe;
+	border-radius: 5px;
+}
+.sign-in:hover {
+	border: 1px solid #e7434e;
+	background: #f9fafe20;
+}
+.find-boat {
+	color: #f9fafe;
+	line-height: 1;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	width: 50%;
+	margin: 22% -25%;
+}
+.reserve-label1 {
+	font-size: 48px;
+}
+.reserve-label2 {
+	font-weight: 400;
+	font-size: 20px;
+	margin-left: 15%;
+	text-transform: uppercase;
+}
+.enter-text {
+	height: 60px;
+	width: 70%;
+	margin-right: -15px;
+	padding: 20px 30px;
+	color: #717171;
+	font-size: 14px;
+	border: 1px solid #f9fafe;
+	border-radius: 5px;
+	display: block;
+	float: left;
+	text-transform: uppercase;
+}
+.enter-btn {
+	float: left;
+	height: 60px;
+	display: block;
+	width: 30%;
+	padding: 20px 40px 20px 60px;
+	color: #f9fafe;
+	border-radius: 0px 5px 5px 0px;
+	border: 2px solid #e7434e;
+	background: url(../img/sailboat.png) 40px no-repeat #e7434e;
+}
+.enter-btn:after {
+	content: "";
+	width: 16px;
+	height: 16px;
+	display: block;
+	background-image: url(../img/sailboat.png);
+}
+input:focus {
+	outline: none;
+}
+.find-form {
+	margin-top: 85px;
+}
+.abilities {
+	margin-top: -79px;
+	margin-bottom: -69px;
+}
+.ab-list li {
+	display: inline-block;
+	width: 24.5%;	
+	padding: 10px 90px;
+	border-right: 1px solid #d4d4d4;
+}
+.ab-list li:last-child {
+	border-right: none;
+}
+.ab-list {
+	padding: 30px 0;
+	background: #f9fafe;
+	border-radius: 5px;
+}
+.tac {
+	display: block;
+	text-align: center;
+}
+.nums {
+	font-size: 30px;
+	color: #000;
+	font-weight: 600;
+}
+.labs {
+	font-size: 18px;
+	color: #717171;
+}
+.clearfix:after {
+	content: "";
+	clear: both;
+	display: block;
+}
+
+a:focus {
+	text-decoration: none;
+}
+.top-destinations h2, .featured-boat h2 {
+	text-align: center;
+	padding-top: 180px;
+}
+.top-p {
+	font-size: 16px;
+	text-align: center;
+	padding-top: 20px;
+	padding-bottom: 80px;
+	color: #717171;
+}
+.dest-lab {
+	color: #717171;
+	font-size: 30px;
+}
+.first-destination {
+	background: url(../img/portugal.jpg); 
+	height: 360px;
+	margin-bottom: 30px;
+	border-radius: 5px;
+	padding: 30px 25px;
+}
+.second-destination {
+	background: url(../img/ibiza.jpg) no-repeat; 
+	height: 360px;
+	margin-bottom: 30px;
+	border-radius: 5px;
+	padding: 30px 25px;
+}
+.third-destination {
+	background: url(../img/spain.jpg) no-repeat; 
+	height: 360px;
+	margin-bottom: 30px;
+	border-radius: 5px;
+	padding: 30px 25px;
+}
+.fourth-destination {
+	background: url(../img/italy.jpg) no-repeat; 
+	height: 360px;
+	margin-bottom: 30px;
+	border-radius: 5px;
+	padding: 30px 25px;
+}
+.fiveth-destination {
+	background: url(../img/monaco.jpg) no-repeat; 
+	height: 360px;
+	margin-bottom: 30px;
+	border-radius: 5px;
+	padding: 30px 25px;
+}
+.boat-nums {
+	width: 80px;
+	height: 40px;
+	background: url(../img/sailboat.png) 12px no-repeat #e7434e;
+	border-radius: 5px;
+	text-align: center;
+	padding-top: 10px;
+	padding-left: 20px;
+	font-weight: 600;
+	color: #fff;
+	font-size: 16px;
+}
+.lab1 {
+	padding-top: 200px;
+	font-weight: 400;
+	font-size: 30px;
+	color: #fff;
+}
+.lab2 {
+	font-size: 20px;
+	color: #fff;
+}
+.more-dest {
+	text-align: center;
+	color: #343434;
+	font-size: 14px;
+	display: block;
+	border: 1px solid #bdbdbd;
+	padding: 25px 45px;
+	width: 315px;
+	margin: 80px auto;	
+	border-radius: 5px;
+	font-weight: 500;
+}
+.own-boat {
+	background: url(../img/bot-bg.jpg) center no-repeat;
+	height: 600px;
+	text-align: center;
+}
+.have-boat-lab1 {
+	padding-top: 160px;
+	font-size: 48px;
+	color: #fff;
+	font-weight: 600;
+}
+.have-boat-lab2 {
+	font-size: 20px;
+	text-transform: uppercase;
+	color: #fff;
+	font-weight: 400;
+}
+.btn-have-boat {
+	text-transform: uppercase;
+	padding: 25px 45px;
+	background: #e7434e;
+	color: #fff;
+	border: 1px solid #e7434e;
+	border-radius: 5px;
+	margin-top: 85px;
+}
+
+/*FEATURED BOATS*/
+
+.boat {
+	padding: 30px 25px;
+	border-radius: 5px;
+	height: 340px;
+	margin-bottom: 30px;
+}
+.first-boat {
+	background: url(../img/gdansk.jpg) no-repeat;
+}
+.second-boat {
+	background: url(../img/portfino.jpg) no-repeat;
+}
+.third-boat {
+	background: url(../img/palma.jpg) no-repeat;
+}
+.fourth-boat {
+	background: url(../img/lisabon.jpg) no-repeat;
+}
+.boat-cost {
+	font-size: 16px;
+	font-weight: 600;
+	border-radius: 5px;
+	background: #e7434e;
+	color: #fff;
+	padding: 10px 20px 13px;
+	width: 120px;
+	height: 40px;
+}
+.pad-boat {
+	padding-top: 180px;
+}
+.info-boat p {
+	float: left;
+	color: #fff;
+	font-size: 16px;
+}
+.map-location {
+	padding-left: 15px;
+	margin-right: 40px;
+	background: url(../img/map-maker.png) 0 no-repeat;
+}
+.accounts {
+	padding-left: 30px;
+	background: url(../img/account-multiple.png) 0 no-repeat;
+}
+.line {
+	width: 100%;
+	height: 5px;
+	background: url(../img/underline.png);
+}
+.footer {
+	color: #fff;
+	font-size: 16px;
+	background: #404040;
+	height: 315px;
+	padding-top: 55px;
+}
+.pad-foot {
+	text-transform: uppercase;
+	padding-bottom: 25px;
+}
+.footer li {
+	line-height: 2;
+	text-transform: capitalize;
+}
+.text-foot {
+	width: 50%;
+	padding: 10px 20px;
+	height: 40px;
+	text-transform: none;
+}
+
+.btn-foot {
+	font-size: 14px;
+	width: 30%;
+	height: 40px;
+	padding: 10px 35px;
+	background-image: none;
+	text-transform: uppercase;
+}
+.facebook-s {
+	background: url(../img/facebook.png) center no-repeat #717171;
+}
+.twitter-s {
+	background: url(../img/twitter.png) center no-repeat #717171;
+}
+.google-s {
+	background: url(../img/google.png) center no-repeat #717171;
+}
+.sprites-f {
+	float: left;
+	border-radius: 20px;
+	width: 40px;
+	height: 40px;
+	margin-right: 20px;
+}
+.bot-pad {
+	padding-bottom: 35px;
+}
